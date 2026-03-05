@@ -1,0 +1,42 @@
+# ----------------------------------------
+# 1. Taps
+# ----------------------------------------
+tap "homebrew/cask-versions"
+
+# ----------------------------------------
+# 2. Command-Line Utilities
+# ----------------------------------------
+brew "git"
+brew "gh" # GitHub CLI
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "fnm" # Fast Node Manager
+brew "pnpm"
+
+# ----------------------------------------
+# 3. Apps (Casks)
+# ----------------------------------------
+# Terminal & Productivity
+cask "iterm2"
+cask "raycast"
+cask "bitwarden"
+cask "google-chrome"
+
+# Development
+cask "dotnet-sdk" 
+cask "jetbrains-toolbox" 
+cask "visual-studio-code"
+cask "ollama" 
+cask "orbstack" 
+cask "dbeaver-community" 
+cask "postman" 
+
+# Misc
+cask "discord"
+cask "vlc"
+
+# ----------------------------------------
+# 4. Fonts
+# ----------------------------------------
+cask "font-jetbrains-mono-nerd-font"
