@@ -1,5 +1,3 @@
-# mac-workstation
-
 # 🚀 Apple M5 Pro Workstation
 
 An automated, opinionated macOS setup script (using Homebrew) specifically tailored for Apple Silicon (M-series) Macs. This setup is optimized for **C# / .NET 10 development**, building **local RAG pipelines**, and running **local LLMs** efficiently.
