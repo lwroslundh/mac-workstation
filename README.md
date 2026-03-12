@@ -24,7 +24,7 @@ Built with performance in mind: No heavy Docker Desktop (uses OrbStack instead),
 
 ---
 
-## ⚡ Day 1 Installation Guide
+## ⚡ Installation Guide
 
 Got a fresh Mac? Follow these steps to transform it into a dev machine in 10 minutes.
 
