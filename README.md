@@ -39,7 +39,7 @@ Instead of worrying about Git credentials on a fresh machine, just download the 
 
 ```bash
 mkdir ~/.mac-setup && cd ~/.mac-setup
-curl -O https://raw.githubusercontent.com/lwroslundh/mac-workstation/main/Brewfile
+curl -O https://raw.githubusercontent.com/lwroslundh/mac-workstation/main/brew
 ```
 
 ### 3. Run the Brewfile
