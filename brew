@@ -22,7 +22,8 @@ brew "zoxide"
 brew "lazygit"
 brew "git-delta"
 brew "pgcli"
-brew "uv"
+brew "uv" # Python version & package manager (replaces brew python)
+brew "ruff" # Python linter & formatter (replaces black, isort, flake8)
 brew "btop"
 
 # ----------------------------------------
