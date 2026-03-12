@@ -13,6 +13,17 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "fnm" # Fast Node Manager
 brew "pnpm"
+brew "ffmpeg"
+brew "tmux"
+brew "jq"
+brew "fzf"
+brew "ripgrep"
+brew "zoxide"
+brew "lazygit"
+brew "git-delta"
+brew "pgcli"
+brew "uv"
+brew "btop"
 
 # ----------------------------------------
 # 3. Apps (Casks)
@@ -34,6 +45,7 @@ cask "postman"
 
 # Misc
 cask "discord"
+cask "spotify"
 cask "vlc"
 
 # ----------------------------------------
