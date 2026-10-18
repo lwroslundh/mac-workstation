@@ -17,9 +17,14 @@ Built with performance in mind: No heavy Docker Desktop (uses OrbStack instead),
 * **OrbStack:** A lightning-fast, lightweight alternative to Docker Desktop. Perfect for spinning up PostgreSQL/pgvector containers.
 
 ### CLI & Utilities
+* **Version Control:** Git + GitHub CLI (`gh`), Lazygit, Git Delta.
 * **Terminal:** iTerm2 + Zsh (with autosuggestions & syntax highlighting).
 * **Node Management:** `fnm` (Fast Node Manager) + `pnpm`.
-* **Productivity:** Raycast (Spotlight replacement), Bitwarden, GitHub CLI.
+* **Python Tools:** `uv` (Python version & package manager), `ruff` (linter & formatter).
+* **Database:** `pgcli` (PostgreSQL CLI).
+* **Shell Utilities:** `tmux`, `jq`, `fzf`, `ripgrep`, `zoxide`, `ffmpeg`, `btop`.
+* **Productivity:** Raycast (Spotlight replacement), Bitwarden.
+* **Browsers & Apps:** Google Chrome, Discord, Spotify, VLC.
 * **Font:** JetBrains Mono Nerd Font (for those perfect IDE ligatures).
 
 ---
@@ -34,7 +39,7 @@ Open your terminal and run the official Homebrew installation script:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### 2. Download the Brewfile
+### 2. Download the brew file
 Instead of worrying about Git credentials on a fresh machine, just download the raw configuration file directly:
 
 ```bash
@@ -42,7 +47,7 @@ mkdir ~/.mac-setup && cd ~/.mac-setup
 curl -O https://raw.githubusercontent.com/lwroslundh/mac-workstation/main/brew
 ```
 
-### 3. Run the Brewfile
+### 3. Install all packages
 Let Homebrew download and install everything automatically:
 
 ```bash
